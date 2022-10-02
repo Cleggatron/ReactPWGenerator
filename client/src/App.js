@@ -97,7 +97,7 @@ function App() {
           <h2 className="optionsHeader">Select your options:</h2>
           <div className="optionsContainer">
             <div className="option">
-              <label>Total Length:</label>
+              <h2>Total Length:</h2>
               <div id="passwordLength" className="stateSetter">
                 <button onClick={() => handleDecrement('totalLen')}>-</button>
                 <p>{totalLen}</p>
@@ -106,7 +106,7 @@ function App() {
             </div>
 
             <div className="option">
-              <label>Number of Capitals:</label>
+              <h2>Number of Capitals:</h2>
               <div id="CapitalLength" className="stateSetter">
                 <button onClick={() => handleDecrement('totalCap')}>-</button>
                 <p>{totalCaps}</p>
@@ -115,7 +115,7 @@ function App() {
             </div>
 
             <div className="option">
-              <label>Number of Special Characters:</label>
+              <h2>Number of Special Characters:</h2>
               <div id="SpecialLength" className="stateSetter">
                 <button onClick={() => handleDecrement('totalSpec')}>-</button>
                 <p>{totalSpec}</p>
@@ -124,7 +124,7 @@ function App() {
             </div>
 
             <div className="option">
-              <label>Number of Numbers:</label>
+              <h2>Number of Numbers:</h2>
               <div id="NumbersLength" className="stateSetter">
                 <button onClick={() => handleDecrement('totalNums')}>-</button>
                 <p>{totalNums}</p>
