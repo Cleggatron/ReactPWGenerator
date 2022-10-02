@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ReactPWGenerator/static/css/main.28b90867.css",
+    "main.js": "/ReactPWGenerator/static/js/main.59405efd.js",
+    "index.html": "/ReactPWGenerator/index.html",
+    "main.28b90867.css.map": "/ReactPWGenerator/static/css/main.28b90867.css.map",
+    "main.59405efd.js.map": "/ReactPWGenerator/static/js/main.59405efd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28b90867.css",
+    "static/js/main.59405efd.js"
+  ]
+}
